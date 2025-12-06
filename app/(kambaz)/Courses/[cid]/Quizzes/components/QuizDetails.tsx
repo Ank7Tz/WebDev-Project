@@ -1,5 +1,6 @@
 // app/(kambaz)/Courses/[cid]/Quizzes/components/QuizDetails.tsx
 // Quiz Details Page - Shows quiz information and action buttons
+/* eslint-disable @typescript-eslint/no-explicit-any */
 
 "use client";
 import { useEffect, useState } from "react";

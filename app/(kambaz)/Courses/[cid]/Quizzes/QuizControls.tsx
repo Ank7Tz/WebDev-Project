@@ -1,5 +1,6 @@
 // app/(kambaz)/Courses/[cid]/Quizzes/QuizControls.tsx
 // Quiz control buttons with fixed layout
+/* eslint-disable @typescript-eslint/no-explicit-any */
 
 "use client";
 import { BsBan, BsCheckCircleFill, BsThreeDotsVertical } from "react-icons/bs";

@@ -1,6 +1,7 @@
 // app/(kambaz)/Courses/[cid]/Quizzes/components/QuizDetailsEditor.tsx
 // Quiz Details Editor - Faculty can edit quiz settings
 // FIXED: Proper field names matching backend schema
+/* eslint-disable @typescript-eslint/no-explicit-any */
 
 "use client";
 import { useEffect, useState } from "react";

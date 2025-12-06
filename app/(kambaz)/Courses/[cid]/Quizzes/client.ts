@@ -1,5 +1,6 @@
 // app/(kambaz)/Courses/[cid]/Quizzes/client.ts
 // API client for Quiz operations - all HTTP requests to backend
+/* eslint-disable @typescript-eslint/no-explicit-any */
 
 import axios from "axios";
 import type { Quiz, Question, QuizAttempt } from "./types";

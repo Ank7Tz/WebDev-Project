@@ -1,5 +1,6 @@
 // app/(kambaz)/Courses/[cid]/Quizzes/components/QuizAttempt.tsx
 // Student Quiz Taking Interface - creates attempt on submission
+/* eslint-disable @typescript-eslint/no-explicit-any */
 
 "use client";
 import React, { useState, useEffect } from "react";

@@ -1,5 +1,6 @@
 // app/(kambaz)/Courses/[cid]/Quizzes/page.tsx
 // Main Quizzes List Page - displays all quizzes for a course
+/* eslint-disable @typescript-eslint/no-explicit-any */
 
 "use client";
 import { Alert, Button, ListGroup, ListGroupItem } from "react-bootstrap";

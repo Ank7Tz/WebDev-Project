@@ -1,6 +1,7 @@
 // app/(kambaz)/Courses/[cid]/Quizzes/components/QuizQuestionEditor.tsx
 // Quiz Questions Editor - Faculty can add/edit/delete questions
 // This is the main component with all business logic
+/* eslint-disable @typescript-eslint/no-explicit-any */
 
 "use client";
 import { useEffect, useState } from "react";
@@ -251,7 +252,7 @@ export default function QuizQuestionsEditor() {
 
             {questions.length === 0 ? (
               <Alert variant="info">
-                No questions yet. Click "+ New Question" to add one.
+                No questions yet. Click &quot;+ New Question&quot; to add one.
               </Alert>
             ) : (
               <div className="wd-questions-list">

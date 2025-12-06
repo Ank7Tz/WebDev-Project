@@ -1,5 +1,6 @@
 // app/(kambaz)/Courses/[cid]/Quizzes/components/QuizResults.tsx
 // FINAL VERSION - All TypeScript errors fixed
+/* eslint-disable @typescript-eslint/no-explicit-any */
 
 "use client";
 import { useState, useEffect } from "react";

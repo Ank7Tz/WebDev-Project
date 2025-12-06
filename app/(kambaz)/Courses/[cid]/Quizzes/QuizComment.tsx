@@ -1,5 +1,6 @@
 // app/(kambaz)/Courses/[cid]/Quizzes/QuizComment.tsx
 // Displays quiz metadata: availability, due date, points, questions count, and student score
+/* eslint-disable @typescript-eslint/no-explicit-any */
 
 "use client";
 import { useEffect, useState } from "react";

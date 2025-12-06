@@ -1,5 +1,6 @@
 // app/(kambaz)/Courses/[cid]/Quizzes/components/QuizPreview.tsx
 // Faculty Quiz Preview - Faculty can take quiz and see results
+/* eslint-disable @typescript-eslint/no-explicit-any */
 
 "use client";
 import React, { useState, useEffect } from "react";

@@ -124,7 +124,7 @@ export default function FillInBlankEditor({
         <Form.Group className="mb-3">
           <Form.Label><strong>Possible Correct Answers:</strong></Form.Label>
           <small className="text-muted d-block mb-2">
-            Add all variations that should be accepted as correct (e.g., "4", "four", "Four")
+            Add all variations that should be accepted as correct (e.g., &quot;4&quot;, &quot;four&quot;, &quot;Four&quot;)
           </small>
           <div className="p-3 border rounded mb-2">
             {question.possibleAnswers.map((answer, index) => (
